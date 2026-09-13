@@ -127,6 +127,11 @@ function fnConvWpnD {
             )
         }
     }
+
+    fnWinMsgBox `
+        "Information" `
+        "Produced converted WeaponDef file(s) at: $sOutDir" `
+        4 | Out-Null
 }
 
 #  Port the WpnDef file to given template
@@ -234,6 +239,11 @@ function fnPortWpnDef {
     }
 
     $oSW.Dispose()
+
+    fnWinMsgBox `
+        "Information" `
+        "Ported WeaponDef file to: $sWpnDOutFile" `
+        4 | Out-Null
 }
 
 #  Import the WpnDef file
