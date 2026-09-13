@@ -4,7 +4,7 @@
 ## Features
 - Experimental "WeaponDef porting" feature.
 ## Usage
-- Run `Launch.bat` to launch the script and select the soundaliase you wish to port to the other game.
+- Run `Launch.bat` to launch the script and use the menu options to do you desired actions
 - The output will be produced at `.\Output\`.
 ## Copyright
 - The given source code is licensed under [GLPv3](https://github.com/Cowldwink/Soundaliase-Porter/blob/main/LICENSE).
